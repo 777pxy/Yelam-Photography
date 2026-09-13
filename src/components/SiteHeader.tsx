@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-blue-900/10 bg-blue-600/30 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-foreground/10 bg-white/30 backdrop-blur-md">
       <div className="mx-auto flex w-full max-w-[1400px] items-start justify-between gap-6 px-6 py-5 sm:px-10">
         <Link href="#top" className="flex items-baseline gap-3">
           <span className="text-2xl font-medium tracking-tight">yl.</span>
