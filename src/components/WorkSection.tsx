@@ -6,7 +6,7 @@ export default function WorkSection() {
   const [p1, p2, p3, p4, p5, p6] = photos;
 
   return (
-    <section id="work" className="mx-auto w-full max-w-[1400px] px-6 py-10 sm:px-10">
+    <section id="work" className="mx-auto w-full max-w-[1400px] scroll-mt-24 px-6 py-10 sm:px-10">
       <div className="flex items-baseline justify-between border-b border-border pb-4 text-sm">
         <h2 className="text-base">Selected frames</h2>
         <p className="text-muted-foreground">Sample collection · 01—06</p>

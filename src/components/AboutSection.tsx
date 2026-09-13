@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="mx-auto w-full max-w-[1400px] px-6 py-20 sm:px-10">
+    <section id="about" className="mx-auto w-full max-w-[1400px] scroll-mt-24 px-6 py-20 sm:px-10">
       <div className="grid gap-10 sm:grid-cols-2 sm:gap-16">
         <div>
           <p className="text-sm text-muted-foreground">Behind the lens</p>
